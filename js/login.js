@@ -8,13 +8,13 @@ document.getElementById("btn-submit").addEventListener("click",function(){
     const userPassword = passwprdFiled.value;
 
     if(userEmail === "info@gmail.com" && userPassword === "secret"){
-        console.log('valid user')
+       window.location.href = "bank.html"
 
 
     }
     else{
 
-        console.log('invalid user')
+       alert('sorry try agin You are invalid user')
     }
 
 
